@@ -54,7 +54,7 @@ $prs = @(
 )
 
 foreach ($pr in $prs) {
-    gh pr create --base $pr.base --head $pr.head --title $pr.title --body "Assessment 3 — Cornerstone Retail. See README and /docs." 2>$null
+    gh pr create --base $pr.base --head $pr.head --title $pr.title --body "Assessment 3 - Cornerstone Retail. See README and /docs." 2>$null
     if ($LASTEXITCODE -eq 0) { Write-Host "PR: $($pr.head) -> $($pr.base)" }
 }
 

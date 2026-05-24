@@ -1,6 +1,1 @@
-https://github.com/YOUR_USERNAME/cornerstone-retail
-
-Run once:  gh auth login
-Then run:  powershell -ExecutionPolicy Bypass -File scripts/push-to-github.ps1
-
-This updates this file with your real repository URL and creates branches + pull requests.
+﻿https://github.com/aanishtamang75-sudo/cornerstone-retail

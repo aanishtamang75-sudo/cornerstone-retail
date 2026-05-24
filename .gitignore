@@ -1,0 +1,12 @@
+/vendor/
+.env
+public/setup.php
+public/assets/uploads/products/*
+!public/assets/uploads/products/.gitkeep
+/public/assets/uploads/products/*
+!/public/assets/uploads/products/.gitkeep
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

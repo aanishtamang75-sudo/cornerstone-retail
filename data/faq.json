@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "orders",
+    "keywords": ["order", "place", "checkout", "buy", "purchase", "cart"],
+    "answer": "To place an order: browse the catalogue, click Add to Cart on products you want, open Cart, review quantities, then Checkout. You must be logged in. Your order starts as Pending until staff update the status."
+  },
+  {
+    "topic": "order_status",
+    "keywords": ["status", "pending", "shipped", "delivered", "processing", "cancelled", "track"],
+    "answer": "Order statuses: Pending (received), Processing (being prepared), Shipped (on the way), Delivered (completed), Cancelled. View My Orders to see your history. Admins can update status from Manage Orders."
+  },
+  {
+    "topic": "products",
+    "keywords": ["search", "filter", "product", "catalogue", "catalog", "find", "browse"],
+    "answer": "Use the Catalogue page to search by name or SKU, filter by category or price, and toggle In stock only. Results are paginated. Admins can add, edit, or delete products from the admin menu."
+  },
+  {
+    "topic": "account",
+    "keywords": ["login", "register", "account", "password", "sign up", "sign in"],
+    "answer": "Register with your email and a password of at least 8 characters, then log in. Passwords are stored securely using bcrypt hashing. Demo accounts are listed in the README for assessment demos only."
+  },
+  {
+    "topic": "admin",
+    "keywords": ["admin", "manage", "crud", "staff"],
+    "answer": "Admin users can manage products (full CRUD), view all orders, update order status, and view the activity log. Standard users can only manage their own cart and orders."
+  },
+  {
+    "topic": "ai",
+    "keywords": ["ai", "assistant", "description", "generate", "draft", "help"],
+    "answer": "The Description Assistant on the product form suggests marketing copy from your rough notes. You must review and edit before saving. AI-generated content requires human review. No personal customer data is sent to external AI services in this application."
+  },
+  {
+    "topic": "security",
+    "keywords": ["secure", "safe", "privacy", "data"],
+    "answer": "This demo uses session-based login, password hashing, CSRF tokens on forms, prepared SQL statements, and role-based access control. Do not use real customer PII in demo or AI features."
+  }
+]

@@ -22,7 +22,7 @@ _Update with your group before submission:_
 
 | Name | Student ID | Role |
 |------|------------|------|
-| _Member 1_ | _ID_ | Team Lead / Scrum Master |
+| Anish Tamang | Cihe240555 | Team Lead / Scrum Master |
 | _Member 2_ | _ID_ | Front-End Lead |
 | _Member 3_ | _ID_ | Back-End Lead |
 | _Member 3 or 4_ | _ID_ | Data / QA Lead |
